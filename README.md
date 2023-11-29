@@ -1,5 +1,5 @@
 
-<a>https://cataojoaquim.github.io/cryptoCurrency</a>Crypto
+<a href="https://cataojoaquim.github.io/cryptoCurrency"><strong>Cryptocurrency</strong></a>
 
 <p align="center">Cryptocurrency Home Page with<strong> Conversor.</strong></p>&nbsp;
 
