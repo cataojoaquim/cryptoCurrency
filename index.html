@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Currency</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <img class="logo" src="./images/logo.png">
+            <ul>
+                <li><a href="#">Market</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">White</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <h1>BUY & <br> SELL <span>Crypto</span></h1>
+            <p>World's biggest Cryptocurrency exchange available on web as well as mobile phone.</p>
+            <a href="#" class="btn">EXPLORE MORE</a>
+        </div>
+
+        <div class="coin-list">
+            <div class="coin">
+                <img src="./images/bitcoin.png">
+                <div>
+                    <h3>$00</h3>
+                    <p>Bitcoin</p>
+                </div>
+            </div>
+            <div class="coin">
+                <img src="./images/ethereum.png">
+                <div>
+                    <h3>$00</h3>
+                    <p>Ethereum</p>
+                </div>
+            </div>
+            <div class="coin">
+                <img src="./images/dogecoin.png">
+                <div>
+                    <h3>$00</h3>
+                    <p>Dogecoin</p>
+                </div>    
+            </div>
+        </div>
+    </div>
+
+
+    <section class="conversor">
+        <h1>cryptocurrency converter</h1>
+        <p>Enter the amount you want to convert and select the currencies:</p>
+
+        <input id="amount" type="number" value="1" min="0">
+        <select id="from">
+            <option value="DOGE">Dogecoin</option>
+            <option value="ETH">Ethereum</option>
+            <option value="BTC">Bitcoin</option>
+        </select>
+        <span>to</span>
+        <select id="to">
+            <option value="DOGE">Dogecoin</option>
+            <option value="ETH">Ethereum</option>
+            <option value="BTC">Bitcoin</option>
+        </select>
+        <button id="convert">Convert</button>
+        <p id="result"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
